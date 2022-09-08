@@ -1,0 +1,16 @@
+Algorithm for Code.sh file
+
+Step 1: Check 'backup' folder exist or not, if exist remove it.
+
+Step 2: Create 'backup' folder.
+
+Step 3: Filter files 'x.pdf', 'y.docx' and 'z.mp3'.
+
+Step 4: Segregate the corresponding basename and extension of file.
+        (eg:- x.pdf -> 'x' and 'pdf')
+
+Step 5: Create folder of basename and inside it create folder of extension
+        in backup folder.(eg:- x.pdf -> x/pdf)
+
+Step 6: Copy file into corresponding extension name created folder.
+        (eg:- x.pdf -> backup/x/pdf/x.pdf)
